@@ -14,7 +14,7 @@ function buttonClick(){
 	if (two.value == "for(inti=0;i<y.length;i++)"){
 		text2.innerHTML = "正解";
 	}else{
-		text2.innerHTML = "不正解　解答：for(int i=0; i<y.length; i++)";
+		text2.innerHTML = "不正解　解答：for(int i=0; i＜y.length; i++)";
 	}
 
 	if (three.value == "y[i]=random(-3000,0);"){
@@ -23,7 +23,7 @@ function buttonClick(){
 		text3.innerHTML = "不正解　解答：y[i] = random(-3000, 0);";
 	}
 
-	if (four.value == "star(x,y[i]);)"){
+	if (four.value == "star(x,y[i]);"){
 		text4.innerHTML = "正解";
 	}else{
 		text4.innerHTML = "不正解　解答：star(x, y[i]);";
